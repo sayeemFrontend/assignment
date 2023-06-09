@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-roboto;
+  }
+  h5 {
+    @apply font-normal;
+  }
+
+  h4 {
+    @apply text-xs font-medium;
+  }
+
+  h3 {
+    @apply text-sm font-semibold;
+  }
+  .custom-shadow {
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 10px 17px rgba(193, 208, 195, 0.26), -9px -9px 16px rgba(238, 238, 238, 0.6);
+  }
+}
+
+@layer components {
+}
+@layer utilities {
+  .custom-border {
+    @apply border rounded-[10px] border-primary-500;
+  }
+  /* font roboto */
+  .text-small {
+    @apply text-xs xl:text-sm 2xl:text-lg font-semibold  text-primary-500;
+  }
+  /* font IBM Plex Sans */
+  .text-medium {
+    @apply text-sm xl:text-base 2xl:text-xl font-medium text-primary-500 font-ibm;
+  }
+  /* font roboto */
+  .text-large {
+    @apply text-xl xl:text-3xl 2xl:text-[51px] 2xl:leading-[64px] font-medium text-primary-500;
+  }
+  .text-mid-large {
+    @apply xl:text-lg  2xl:text-[22px] leading-[26px] font-medium text-primary-600;
+  }
+  .paragraph {
+    @apply text-sm xl:text-base 2xl:text-2xl 2xl:leading-7 font-normal text-primary-500 text-opacity-70;
+  }
+}

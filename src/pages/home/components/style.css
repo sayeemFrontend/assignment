@@ -1,0 +1,59 @@
+table {
+  @apply text-center;
+}
+table tr {
+  @apply h-10 2xl:h-['71px'];
+}
+table thead tr {
+  @apply bg-primary-300 bg-opacity-60;
+}
+table th {
+  @apply text-small;
+}
+table th:first-child {
+  @apply rounded-tl-md rounded-bl-md;
+}
+table th:last-child {
+  @apply rounded-tr-md rounded-br-md;
+}
+
+table tbody {
+  @apply text-xs xl:text-sm 2xl:text-lg font-normal font-roboto text-primary-800;
+}
+table td {
+  @apply bg-secondary-200 rounded-md px-8 border border-primary-100;
+}
+table tr:nth-child(1) td:nth-last-child(3),
+table tr:nth-child(2) td:nth-last-child(3),
+table tr:nth-child(3) td:nth-last-child(3),
+table tr:nth-child(3) td:nth-last-child(1) {
+  @apply bg-secondary-300;
+}
+table tr:nth-child(5) td:nth-last-child(3),
+table tr:nth-child(5) td:nth-last-child(1) {
+  @apply bg-secondary-400;
+}
+
+.social-icons {
+  @apply flex gap-4 2xl:gap-6 flex-row;
+}
+.social-icons ul {
+  @apply flex h-48 flex-col justify-between gap-4;
+}
+
+.social-icons ul li {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+
+  @apply relative w-[100px] p-6 2xl:w-[141px] custom-shadow 2xl:p-10 bg-primary-100 flex items-center justify-center;
+}
+.social-icons ul li img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.social-icons ul li p {
+  @apply text-xs 2xl:text-sm text-center absolute bottom-3;
+}
+
+.card-chart ul {
+  @apply px-4 flex items-center xl:h-11 2xl:h-[72];
+}

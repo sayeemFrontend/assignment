@@ -1,0 +1,12 @@
+.icon-card-mini {
+  background: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+.default {
+  box-shadow: 10px 10px 17px rgba(193, 208, 195, 0.26), -9px -9px 16px rgba(238, 238, 238, 0.6);
+}
+
+.light {
+  box-shadow: 12px 12px 20px rgba(164, 198, 163, 0.5), -9px -9px 16px rgba(255, 255, 255, 0.6);
+}
