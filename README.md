@@ -2,10 +2,10 @@
 
 # Installation
 
-npm create vite@latest assignment
-cd assignment
-npm install
-npm run dev
+1. npm create vite@latest assignment
+2. cd assignment
+3. npm install
+4. npm run dev
 
 # Run Application
 
