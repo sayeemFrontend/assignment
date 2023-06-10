@@ -9,7 +9,7 @@ npm run dev
 
 # Run Application
 
-1. Clone from git clone https://github.com/sayeemFrontend/assignment.git
+1. git clone https://github.com/sayeemFrontend/assignment.git
    (make sure current brach is master)
 2. cd assignment
 3. npm install
