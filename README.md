@@ -9,10 +9,11 @@ npm run dev
 
 # Run Application
 
-1. Clone from https://github.com/sayeemFrontend/assignment.git
+1. Clone from git clone https://github.com/sayeemFrontend/assignment.git
    (make sure current brach is master)
-2. npm install (or npm i)
-3. npm run dev
+2. cd assignment
+3. npm install
+4. npm run dev
 
 # Production
 
