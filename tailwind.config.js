@@ -32,8 +32,8 @@ export default {
       },
     },
     fontFamily: {
-      roboto: ['Roboto', 'ui-sans-serif', 'system-ui'],
-      ibm: ['IBM Plex Sans', 'Georgia'],
+      roboto: ['Roboto', 'sans-serif', 'system-ui'],
+      ibm: ['IBM Plex Sans', 'sans-serif'],
       default: ['ui-monospace', 'SFMono-Regular'],
     },
     extend: {

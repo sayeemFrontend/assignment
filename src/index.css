@@ -6,6 +6,7 @@
   body {
     @apply font-roboto;
   }
+
   h5 {
     @apply font-normal;
   }
@@ -32,7 +33,7 @@
   }
   /* font roboto */
   .text-small {
-    @apply text-xs xl:text-sm 2xl:text-lg font-semibold  text-primary-500;
+    @apply text-xs xl:text-sm 2xl:text-lg font-semibold font-roboto text-primary-500;
   }
   /* font IBM Plex Sans */
   .text-medium {
@@ -40,12 +41,13 @@
   }
   /* font roboto */
   .text-large {
-    @apply text-xl xl:text-3xl 2xl:text-[51px] 2xl:leading-[64px] font-medium text-primary-500;
+    @apply text-xl xl:text-3xl 2xl:text-[51px] 2xl:leading-[64px] font-medium text-primary-500 font-roboto;
   }
   .text-mid-large {
     @apply text-lg  2xl:text-[22px] leading-[26px] font-medium text-primary-600;
   }
   .paragraph {
+    letter-spacing: 0.02em;
     @apply text-xs xl:text-sm 2xl:text-2xl 2xl:leading-7 font-normal text-primary-500 text-opacity-70;
   }
   .default-shadow {
