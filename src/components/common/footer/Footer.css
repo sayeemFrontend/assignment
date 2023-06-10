@@ -1,0 +1,25 @@
+.footer {
+  @apply p-[24px] md:p-[70px] 2xl:p-[130px]  bg-[#C9C9C9] text-lg text-primary-800;
+}
+
+.footer .items-group {
+  width: fit-content;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+}
+
+.footer .items-group p {
+  @apply font-semibold mb-2;
+}
+
+.footer .items-group li {
+  @apply font-normal opacity-70 cursor-pointer;
+}
+
+.footer .items-group > span {
+  height: 100%;
+  width: 2px;
+  display: inline-block;
+  background: #010c23;
+  opacity: 0.15;
+}

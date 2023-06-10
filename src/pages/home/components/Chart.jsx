@@ -11,8 +11,8 @@ export default function CardChart() {
         <div className='col-span-12 md:col-span-6'>
           <div className=''>
             <p className='mb-4 text-large'>Nemo enim ipsam quia </p>
-            <p className='mb-16 paragraph max-w-[90%]'>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu nemo enim</p>
-            <div className='icons max-w-md flex flex-col h-fit gap-4'>
+            <p className='mb-16 paragraph'>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu nemo enim</p>
+            <div className='icons max-w-lg flex flex-col h-fit gap-4'>
               <IconCardMini>
                 <ul>
                   <OkIcon className='w-[20px] 2xl:w-[30px] mr-3' />
@@ -69,9 +69,9 @@ export default function CardChart() {
                         <tr key={i}>
                           <td>{da.source || '-'}</td>
                           <td>{da.campaign || '-'}</td>
-                          <td>${da.cost || '-'}</td>
+                          <td>{da.cost || '-'}</td>
                           <td>{da.sales || '-'}</td>
-                          <td className='font-bold'>${da.revenue || '-'}</td>
+                          <td className='font-extrabold'>{da.revenue || '-'}</td>
                         </tr>
                       ))}
                     </tbody>
