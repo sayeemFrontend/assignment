@@ -2,7 +2,7 @@ import './table.css';
 
 export default function TableData() {
   return (
-    <div>
+    <div className='mb-[100px]'>
       <p className='mb-6 text-large max-w-[972px] mx-auto text-center'>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit</p>
       <div className='container mx-auto overflow-auto'>
         <div className='table mx-auto w-full'>

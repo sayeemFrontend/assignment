@@ -6,7 +6,7 @@ import './style.css';
 
 export default function CardChart() {
   return (
-    <div className='card-chart container mx-auto'>
+    <div className='card-chart mb-[100px] container mx-auto '>
       <div className='grid grid-flow-row grid-cols-12 gap-4 items-center'>
         <div className='col-span-12 md:col-span-6'>
           <div className=''>

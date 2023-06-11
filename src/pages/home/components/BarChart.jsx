@@ -6,13 +6,12 @@ import shopee from '../../../assets/icons/shoppe.svg';
 
 export default function BarChart() {
   return (
-    <div>
+    <div className='mb-[100px] container mx-auto'>
       <div className='flex items-center flex-wrap flex-row justify-between gap-6'>
         <div className='w-[500px]'>
           <p className='text-large'>Consectetur adipiscing elit</p>
           <p className='mt-4 paragraph'>Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam dignissim viverra</p>
         </div>
-
         <div className='flex items-center gap-4'>
           <ul className=''>
             <li className='custom-shadow w-[120px] h-[124px] 2xl:w-[180px] 2xl:h-[190px] flex justify-center items-center p-2'>
@@ -32,7 +31,6 @@ export default function BarChart() {
           <p className='text-sm 2xl:text-base text-center'>+Custom ones</p>
         </div>
       </div>
-
       <div className='mt-[100px] text-center max-w-[446px] 2xl:max-w-[1120px] mx-auto'>
         <p className='mb-3 text-large'>Ullamcorper morbi tincidunt ornare massa eget. Quam viverra orci sagittis eu volutpat odio</p>
         <p className='paragraph w-3/5 mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>

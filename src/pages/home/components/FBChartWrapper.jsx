@@ -2,7 +2,7 @@ import FBChart from '../../../components/common/charts/fb-chart/FBChart';
 
 export default function FBChartWrapper() {
   return (
-    <div className='fb-chart-wrapper container mx-auto'>
+    <div className='fb-chart-wrapper mb-[100px] container mx-auto'>
       <div className='max-w-[390px]  2xl:max-w-[950px] text-center mx-auto'>
         <p className='mb-2 2xl:mb-4 text-large'>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
         <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>

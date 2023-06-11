@@ -12,7 +12,7 @@ import './style.css';
 
 export default function SocialIcons() {
   return (
-    <div>
+    <div className='mb-[190px] 2xl:mb-[260px]'>
       <div className='container mx-auto'>
         <div className='grid grid-flow-row grid-cols-12 gap-4'>
           <div className='col-span-12 md:col-span-6'>
